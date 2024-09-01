@@ -1,0 +1,202 @@
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: solid .4pt;
+    margin-top: 25px;
+    margin-right: 16px;
+    margin-left: 65px;
+    font-size: 17px;
+  }
+  .topnav a {
+    float: right;
+    margin-top: 20px;
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    filter: brightness(150%)
+  }
+  .active {
+    margin-right: 65px;
+  }
+  .themeowlounge {
+    font-family: helvetica;
+    color: #CBC3E3;
+  }
+  .header {
+  }
+  .ol{
+    list-style:none;
+  }
+ .headerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+ }
+ .button1 {
+    Border: 2px solid #CBC3E3;
+    Background-color: white;
+    Border-radius: 12px;
+    Font-family: Luminari; Font-size: 17px; color: black; font:weight: bolder;
+    Transition-duration: 0.4s;
+    Cursor: pointer;
+    Display: inline-block;
+    Padding: 15px;
+    text-decoration: none;
+ }
+ .button1:hover {
+    Background-color:#f900f924;
+    Color: White;
+ }
+ .button2 {
+    Border: 2px solid #CBC3E3;
+    Background-color: white;
+    Border-radius: 12px;
+    Font-family: Luminari; Font-size: 17px; color: black; font:weight: bolder;
+    Transition-duration: 0.4s;
+    Cursor: pointer;
+    Display: inline-block;
+    Padding: 15px;
+    text-decoration: none;
+ }
+ .button2:hover {
+    Background-color:#F900F924;
+    Color: White;
+ }
+ .MeetCats {
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Cats {
+  background-color: #FFF;
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+  Margin-left: 50px;
+  margin-right: 50px;
+}
+.CatsImage {
+  background-color: #E0E0E0;
+  width: 200px; 
+  height: 150px; 
+  margin-bottom: 15px;
+  margin-right: 20px;
+  Margin-left: 20px;
+  overflow: hidden; 
+}
+
+.CatsImage img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.CatsName {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #9867CF;
+}
+
+.CatsName:hover {
+  color: #BA55D3;
+}
+
+ .row {
+    width: 100%
+ }
+ .col {
+    font-size: 20px;
+ }
+ .container{
+    margin-top: 20px;
+  @use postcss-preset-env {
+    stage: 0
+  }
+  .btn-group button {
+    background-color: purple;
+    border: 2px solid #F900F924;
+    color: white;
+    Margin-top: 40px;
+    padding: 15px;
+    width: 180px;
+    Border-radius: 12px;
+    Font-family: Luminari; 
+    cursor: pointer; 
+    float: left;
+    Margin-left: 145px;
+  }
+  .btn-group button:hover {
+    Background-color:white;
+    Color: purple;
+  }
+  .footer-links a {
+    color: purple;
+    text-decoration: none;
+  }
+  .footer-links { 
+    list-style-type: none;
+  }
+  .footer-links :hover {
+    filter: brightness (150%)
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    & > input {
+      flex: 1 1 10ch;
+      margin: .5rem;
+      &[type="email"] {
+        flex: 3 1 30ch;
+      }
+    }
+  }
+  input {
+    border: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    &[type="submit"] {
+      background: #b65fcf;
+      color: white;
+      box-shadow: 0 .75rem .5rem -.5rem #F900F924;
+    }
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid purple;
+    float: center;
+    width: 350px;
+  }
+  .gallery {
+    text-align: center;
+  }
+  div.gallery img {
+    width: 70%;
+    height: auto;
+  }
+  p.descpara1 {
+    text-align: center;
+    color: purple;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: purple;
+  }
